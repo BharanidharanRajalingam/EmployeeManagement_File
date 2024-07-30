@@ -1,0 +1,45 @@
+@import './base.css';
+
+.v-snackbar__wrapper {
+    top: 1% ;
+    right: 1%;
+}
+.registerbottom{
+    text-align: center;
+    p{
+        color: cadetblue;
+    }
+    a{
+        color: blue;
+        cursor: pointer;
+    }
+}
+.routerscreen{
+    margin-top: 5%;
+}
+
+.layoutheader .v-toolbar__content{
+    >div{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    display: flex;
+    justify-content: space-between;
+    padding-inline:15px ;
+    img{
+        width: 100px;
+    }
+}
+.buttons{
+    padding: 7px 10px;
+}
+.searchbutton{
+    background-color: darkgray;
+}
+.addexperience{
+    border: 1px solid #999999;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #e1e1e1;
+}

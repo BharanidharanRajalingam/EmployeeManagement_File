@@ -1,0 +1,27 @@
+{
+  // "compilerOptions": {
+  //   "noImplicitAny": false,
+  //   "importHelpers": true,
+  //   "allowSyntheticDefaultImports": true,
+  //   "preserveValueImports": false,
+  //   // "importsNotUsedAsValues": "preserve",
+  //   "baseUrl": ".",
+  //   "paths": {
+  //     "@/*": ["./src/*"]
+  //   }
+  // },
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules", "dist"]
+}
